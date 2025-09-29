@@ -25,3 +25,8 @@ Printing output  & INT 21h                   & print()                 & In asse
 Arithmetic       & ADD AX, BX                & x + y                   & Assembly language requires explicit register operations. In python, these are hidden behind simple operators.               
        \end{tabular}
        \end{table}
+       | Feature          | Assembly Example | Python Example | Notes                                                                                                               |
+|------------------|------------------|----------------|---------------------------------------------------------------------------------------------------------------------|
+| Variable storage | Register (EAX)   | x = 5          | Python hides low-level memory. You can simply declare a variable in python without worrying about memory.           |
+| Printing output  | INT 21h          | print()        | In assembly language, system has to be interrupted manually. In Python one function handles all the hidden details. |
+| Arithmetic       | ADD AX, BX       | x + y          | Assembly language requires explicit register operations. In python, these are hidden behind simple operators.       |
