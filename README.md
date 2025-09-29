@@ -17,7 +17,7 @@ In python, the code is written in human like syntax so is easier to write and un
 functions help abstraction because they hide how a task is done and focus mainly on the implementation of the task. they promote ignoring unnecessary details which is the core concept of abstraction.
 
 # 3. Comparison Table:
-       | Feature          | Assembly Example | Python Example | Notes                                                                                                               |
+      | Feature          | Assembly Example | Python Example | Notes                                                                                                               |
 |------------------|------------------|----------------|---------------------------------------------------------------------------------------------------------------------|
 | Variable storage | Register (EAX)   | x = 5          | Python hides low-level memory. You can simply declare a variable in python without worrying about memory.           |
 | Printing output  | INT 21h          | print()        | In assembly language, system has to be interrupted manually. In Python one function handles all the hidden details. |
